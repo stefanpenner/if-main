@@ -4,8 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "volta": {
-    "node": "14.15.0",
+    "node": "15.1.0",
     "yarn": "1.22.10"
+  },
+  "engines": {
+    "node": ">= 15"
   },
   "devDependencies": {
     "eslint": "^7.13.0",
