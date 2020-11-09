@@ -1,0 +1,24 @@
+{
+  "name": "if-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "volta": {
+    "node": "14.15.0",
+    "yarn": "1.22.10"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.13.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-mocha": "^8.0.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "mocha": "^8.2.1",
+    "prettier": "^2.1.2"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "lint": "eslint ."
+  }
+}
