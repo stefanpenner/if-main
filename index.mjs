@@ -7,6 +7,6 @@ export default async function ifMain(url, cb, _process = process) {
   if (arguments.length === 1) {
     return true;
   }
-  await cb.apply(null, process.argv.slice(2));
+  await cb(_process.argv.slice(2));
   return true;
 }
