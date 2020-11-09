@@ -1,4 +1,4 @@
-# if-main ![CI](https://github.com/stefanpenner/if-main/workflows/CI/badge.svg)
+# if-main [![CI](https://github.com/stefanpenner/if-main/workflows/CI/badge.svg)](https://github.com/stefanpenner/if-main/actions)
 
 
 ```sh
