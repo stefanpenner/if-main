@@ -3,7 +3,6 @@ import assert from 'assert';
 import isMain from './index.mjs';
 import { execFile as _execFile } from 'child_process';
 import { promisify } from 'util';
-import { EOL } from 'os';
 
 const execFile = promisify(_execFile);
 
@@ -20,12 +19,12 @@ describe('if-main', function () {
 
   it('integrates', async function () {
     assert.deepEqual(await execFile('node', ['./example.mjs']), {
-      stdout: `Hello, undefined!${EOL}`,
+      stdout: `Hello, undefined!\n`,
       stderr: '',
     });
 
     assert.deepEqual(await execFile('node', ['./example.mjs', 'world']), {
-      stdout: `Hello, world!${EOL}`,
+      stdout: `Hello, world!\n`,
       stderr: '',
     });
   });
