@@ -1,4 +1,5 @@
-# if-main
+# if-main ![CI](https://github.com/stefanpenner/if-main/workflows/CI/badge.svg)
+
 
 ```sh
 yarn add if-main
