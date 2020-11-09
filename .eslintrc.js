@@ -12,7 +12,7 @@ module.exports = {
   overrides: [
     {
       env: { mocha: true },
-      files: 'projects/**/*-test.js',
+      files: 'test.mjs',
       plugins: ['mocha'],
       extends: ['plugin:mocha/recommended'],
       rules: {
